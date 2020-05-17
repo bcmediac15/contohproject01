@@ -135,7 +135,6 @@ for($i=0;$i<=$jdata-1;$i++){
         <td><a id="edata" href="index.php?id=mhs&act=ed&nim=<?=$dtmhs[$i]['NIM'];?>">Edit</a> <a class="lnkdel" href="index.php?id=mhs&act=del&nim=<?=$dtmhs[$i]['NIM'];?>">Hapus</td>
     </tr>
 <?php
-    //}
 }
 ?>
 </tbody>
